@@ -1,0 +1,35 @@
+<div id="main" class="palm-hasheader">
+	<div class="palm-header center" id="main-hdr">
+	  Optionen
+	</div>
+</div>
+<div class="palm-group">
+	<div class="palm-group-title">
+		<span x-mojo-loc="">Verhalten</span>
+	</div>
+	<div class="palm-list">
+		<div class="palm-row first ">
+			<div class="palm-row-wrapper">
+				<div id="autostart" x-mojo-element="ToggleButton"></div>
+				<div class="title capitalize">Starte Countdown automatisch</div>
+			</div>
+		</div>
+		<div class="palm-row">
+			<div class="palm-row-wrapper">
+				<div id="theme" x-mojo-element="ListSelector"></div>
+			</div>
+		</div>
+		<div class="palm-row" id="tonerow" x-mojo-tap-highlight="momentary">
+			<div class="palm-row-wrapper">
+				<div class="label left" x-mojo-loc=''>Melodie</div>
+	            	<div id='tone' class="title right"></div>
+			</div>
+		</div>
+		<div class="palm-row last">
+			<div class="palm-row-wrapper">
+				<div id="blockscreentimeout" x-mojo-element="ToggleButton"></div>
+				<div class="label capitalize">Block-Bildschirm-Timeout</div>
+			</div>
+		</div>
+	</div>
+</div>

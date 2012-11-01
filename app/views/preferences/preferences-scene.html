@@ -1,0 +1,35 @@
+<div id="main" class="palm-hasheader">
+	<div class="palm-header center" id="main-hdr">
+	  Preferences
+	</div>
+</div>
+<div class="palm-group">
+	<div class="palm-group-title">
+		<span x-mojo-loc="">Bahviour</span>
+	</div>
+	<div class="palm-list">
+		<div class="palm-row first "><!-- first -->
+			<div class="palm-row-wrapper">
+				<div id="autostart" x-mojo-element="ToggleButton"></div>
+				<div class="label left capitalize">Autostart countdown</div>
+			</div>
+		</div>
+		<div class="palm-row ">
+			<div class="palm-row-wrapper">
+				<div id="theme" x-mojo-element="ListSelector" class="swap-text"></div>
+			</div>
+		</div>
+		<div class="palm-row " id="tonerow" x-mojo-tap-highlight="momentary">
+			<div class="palm-row-wrapper">
+			  <div class="label left">Ringtone</div>
+				<div class="title right" id="tone"></div>
+			</div>
+		</div>
+		<div class="palm-row last">
+			<div class="palm-row-wrapper">
+				<div id="blockscreentimeout" x-mojo-element="ToggleButton"></div>
+				<div class="label left capitalize">Block screen timeout</div>
+			</div>
+		</div>
+	</div>
+</div>

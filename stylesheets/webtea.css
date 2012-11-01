@@ -1,0 +1,103 @@
+body.palm-default {
+	background-color: #E4E4E2;
+	background-image: url('../images/background_tea.png');
+	background-position-x: left;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div#bg{
+	background-image: url('../images/background_progress.png');
+	background-position-x: left;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 160px;
+	height: 340px;
+}
+
+div#tType{
+	width:190px;
+	float:right;
+	vertical-align: top;
+}
+
+div#tTime {
+	width:160px;
+	float:right;
+	vertical-align: middle;
+}
+
+div#progress {
+	width:190px;
+	float:right;
+	vertical-align: bottom;
+}
+.tret{
+	height: 100px;
+}
+
+
+/* Pop-up notifications */
+.notification-panel {
+	background: #000;
+	color: #fff;
+	overflow: hidden;
+	padding: 15px;
+	top: 0;
+	width: 320px;
+}
+.notification-container {
+	width: 290px;
+	height: 48px;
+	padding: 0;
+	position: fixed;
+	top: 10px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.notification-container .notification-icon {
+	width: 48px;
+	height: 48px;
+	margin-right: 5px;
+	float: left;
+	background: url(../images/icon48.png) top left no-repeat;
+}
+.notification-container .notification-title {
+	width: 230px;
+	height: 18px;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	padding-bottom:5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.notification-container .notification-subtitle {
+	margin-top:-5px;
+	width: 230px;
+	height: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #fff;
+	font-size: 14px;
+	white-space: nowrap;
+}
+.notification-container .notification-title span,
+.notification-container .notification-subtitle span {
+	font-weight: normal;
+}
+
+div#okButton{
+	width: 290px;
+	text-align:center;
+}
+
