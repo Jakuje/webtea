@@ -79,8 +79,8 @@ AppAssistant.prototype.handleCommand = function(event){
 			case CMD_ABOUT:
 				currentScene.showAlertDialog({
   					onChoose: function(value) {},
-					  title: "webTea - v1.1.5",
-					  message: "Copyright 2009-2011, <a href=\"http://jakuje.dta3.com\"Jakuje</a>",
+					  title: "webTea - v1.1.7",
+					  message: "Copyright 2009-2013, Jakuje",
 					  choices:[
 					  {label:"OK", value:""}
 					  ]
