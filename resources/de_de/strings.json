@@ -7,15 +7,19 @@
   "Type" : "Typ",
   	"Other" : "Andere",
   	"Green" : "Grün",
+        "Sencha": "Sencha",
   	"White" : "Weiß",
   	"Black" : "Schwarz",
+        "Oolong": "Oolong",
+        "Roibos": "Rooibos",
+        "Puerh" : "Pu-Erh",
   "Start" : "Start",
   "Reset" : "Reset",
   "Your Tea is ready to serve!" : "Ihr Tee ist fertig!",
   
   
-  "On" : "On",
-  "Off" : "Off",
+  "On" : "An",
+  "Off" : "Aus",
   "Theme" : "Thema"
   
 }
