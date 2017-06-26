@@ -70,14 +70,14 @@ MainAssistant.prototype.setup = function() {
 	this.controller.setupWidget("teaTypes",
 		{
 			choices: [
-				{label: "Other",  value: 0, time: 0},
-				{label: "Green",  value: 2, time: 2},
-				{label: "Sencha", value: 1, time: 1},
-				{label: "White",  value: 6, time: 6},
-				{label: "Black",  value: 3, time: 3},
-				{label: "Oolong", value: 4, time: 4},
-				{label: "Roibos", value: 5, time: 5},
-				{label: "Puerh",  value: 7, time: 7}
+			        {label: $L("Other"),  value: 0, time: 0},
+			        {label: $L("Green"),  value: 2, time: 2},
+			        {label: $L("Sencha"), value: 1, time: 1},
+			        {label: $L("White"),  value: 6, time: 6},
+			        {label: $L("Black"),  value: 3, time: 3},
+			        {label: $L("Oolong"), value: 4, time: 4},
+			        {label: $L("Roibos"), value: 5, time: 5},
+			        {label: $L("Puerh"),  value: 7, time: 7}
 			],
 			modelProperty: "tea",
 			labelPlacement: Mojo.Widget.labelPlacementLeft,
